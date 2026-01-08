@@ -1,33 +1,23 @@
-# Welcome to ridge_remake
+# RidgeMake
 
-|        |        |
-|--------|--------|
-| Package | [![Latest PyPI Version](https://img.shields.io/pypi/v/ridge_remake.svg)](https://pypi.org/project/ridge_remake/) [![Supported Python Versions](https://img.shields.io/pypi/pyversions/ridge_remake.svg)](https://pypi.org/project/ridge_remake/)  |
-| Meta   | [![Code of Conduct](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md) |
+A simple and intuitive linear regression tool for fitting data, visualizing results, and evaluating model performance.
 
-*TODO: the above badges that indicate python version and package version will only work if your package is on PyPI.
-If you don't plan to publish to PyPI, you can remove them.*
+## Features
 
-ridge_remake is a project that (describe what it does here).
+-   **Line of Best Fit**: Calculate slope and intercept of the regression line
+-   **Scatter Plot**: Visualize your data points
+-   **Regression Line**: Plot the fitted line on the chart
+-   **R² Score**: Evaluate model performance with R² metric
 
-## Get started
-
-You can install this package into your preferred Python environment using pip:
+## Installation
 
 ```bash
-$ pip install ridge_remake
+pip install numpy matplotlib scikit-learn
 ```
 
-TODO: Add a brief example of how to use the package to this section
+## Contributors
 
-To use ridge_remake in your code:
-
-```python
->>> import ridge_remake
->>> ridge_remake.hello_world()
-```
-
-## Copyright
-
-- Copyright © 2026 suryash chakravarty.
-- Free software distributed under the [MIT License](./LICENSE).
+-   Yue Xiang Ni
+-   Suryash Chakravarty
+-   Seungmyun Park
+-   Jingyi Zha
